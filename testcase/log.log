@@ -1,0 +1,545 @@
+Thu,16 Dec 2021 14:02:03 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "android", "appium:deviceName": "25d55a0e", "appium:appPackage": "hko.MyObservatory_v1_0", "appium:appActivity": "hko.MyObservatory_v1_0.AgreementPage", "appium:noReset": true}, "firstMatch": [{}]}, "desiredCapabilities": {"platformName": "android", "deviceName": "25d55a0e", "appPackage": "hko.MyObservatory_v1_0", "appActivity": "hko.MyObservatory_v1_0.AgreementPage", "noReset": true}}
+Thu,16 Dec 2021 14:02:03 connectionpool.py[line:227]DEBUG,Starting new HTTP connection (1): 127.0.0.1:4723
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 875
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts {"implicit": 8000}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "hko.MyObservatory_v1_0:id/btn_agree"}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/31804a2b-8418-4cd7-954e-5a89a2e7966a/displayed {"id": "31804a2b-8418-4cd7-954e-5a89a2e7966a"}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/31804a2b-8418-4cd7-954e-5a89a2e7966a/displayed HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/31804a2b-8418-4cd7-954e-5a89a2e7966a/enabled {"id": "31804a2b-8418-4cd7-954e-5a89a2e7966a"}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/31804a2b-8418-4cd7-954e-5a89a2e7966a/enabled HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:13 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:13 base_page.py[line:12]INFO,元素： hko.MyObservatory_v1_0:id/btn_agree
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "hko.MyObservatory_v1_0:id/btn_agree"}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/9fafc449-44a2-4c14-b68f-1a11061fb710/click {"id": "9fafc449-44a2-4c14-b68f-1a11061fb710"}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/9fafc449-44a2-4c14-b68f-1a11061fb710/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:13 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:13 base_page.py[line:12]INFO,元素： hko.MyObservatory_v1_0:id/btn_agree
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "hko.MyObservatory_v1_0:id/btn_agree"}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/7447501e-2c42-4487-942a-1678ec265298/click {"id": "7447501e-2c42-4487-942a-1678ec265298"}
+Thu,16 Dec 2021 14:02:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/7447501e-2c42-4487-942a-1678ec265298/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:13 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:13 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:13 base_page.py[line:12]INFO,元素： android:id/button1
+Thu,16 Dec 2021 14:02:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "android:id/button1"}
+Thu,16 Dec 2021 14:02:14 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:14 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:14 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/cb287778-b41d-43ad-8828-91c8160c005d/click {"id": "cb287778-b41d-43ad-8828-91c8160c005d"}
+Thu,16 Dec 2021 14:02:16 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/cb287778-b41d-43ad-8828-91c8160c005d/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:16 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:16 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:16 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:16 base_page.py[line:12]INFO,元素： com.lbe.security.miui:id/permission_allow_foreground_only_button
+Thu,16 Dec 2021 14:02:16 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "com.lbe.security.miui:id/permission_allow_foreground_only_button"}
+Thu,16 Dec 2021 14:02:16 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:16 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:16 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/b392be9d-7f63-46d9-a7d1-1e184c5e5e3f/click {"id": "b392be9d-7f63-46d9-a7d1-1e184c5e5e3f"}
+Thu,16 Dec 2021 14:02:16 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/b392be9d-7f63-46d9-a7d1-1e184c5e5e3f/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:16 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:16 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:16 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:16 base_page.py[line:12]INFO,元素： hko.MyObservatory_v1_0:id/btn_friendly_reminder_skip
+Thu,16 Dec 2021 14:02:16 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "hko.MyObservatory_v1_0:id/btn_friendly_reminder_skip"}
+Thu,16 Dec 2021 14:02:18 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:18 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:18 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/426a8791-08fb-4e26-85d2-009ec7cf14d4/click {"id": "426a8791-08fb-4e26-85d2-009ec7cf14d4"}
+Thu,16 Dec 2021 14:02:18 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/426a8791-08fb-4e26-85d2-009ec7cf14d4/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:18 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:18 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:18 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:18 base_page.py[line:12]INFO,元素： //android.widget.ImageButton[@content-desc="转到上一层级"]
+Thu,16 Dec 2021 14:02:18 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "xpath", "value": "//android.widget.ImageButton[@content-desc=\"\u8f6c\u5230\u4e0a\u4e00\u5c42\u7ea7\"]"}
+Thu,16 Dec 2021 14:02:19 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:19 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:19 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/77357c56-7c38-49fd-906a-bd1fcd7a5ed5/click {"id": "77357c56-7c38-49fd-906a-bd1fcd7a5ed5"}
+Thu,16 Dec 2021 14:02:19 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/77357c56-7c38-49fd-906a-bd1fcd7a5ed5/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:19 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:19 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "-android uiautomator", "value": "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"\u4e5d\u5929\u9810\u5831\").instance(0));"}
+Thu,16 Dec 2021 14:02:30 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:30 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:30 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/dadd25aa-97cc-470a-abc2-151d5dc6f5b8/click {"id": "dadd25aa-97cc-470a-abc2-151d5dc6f5b8"}
+Thu,16 Dec 2021 14:02:31 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/dadd25aa-97cc-470a-abc2-151d5dc6f5b8/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:31 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:31 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:31 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:31 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:31 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/07a6729e-6734-4830-867c-f8c3a14a1e7e/attribute/text {"name": "text", "id": "07a6729e-6734-4830-867c-f8c3a14a1e7e"}
+Thu,16 Dec 2021 14:02:31 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/07a6729e-6734-4830-867c-f8c3a14a1e7e/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:31 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:31 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:31 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:31 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:31 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c5cb7ba5-a08e-43a2-8275-1499592c3bce/attribute/text {"name": "text", "id": "c5cb7ba5-a08e-43a2-8275-1499592c3bce"}
+Thu,16 Dec 2021 14:02:31 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c5cb7ba5-a08e-43a2-8275-1499592c3bce/attribute/text HTTP/1.1" 200 17
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:31 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:31 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:31 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:31 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:31 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:31 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/e178f94c-3136-4081-bea0-36b9f1063d12/attribute/text {"name": "text", "id": "e178f94c-3136-4081-bea0-36b9f1063d12"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/e178f94c-3136-4081-bea0-36b9f1063d12/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:32 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:32 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:32 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/0a7905ca-1e28-48c6-a26e-0d6f0222f6b7/attribute/text {"name": "text", "id": "0a7905ca-1e28-48c6-a26e-0d6f0222f6b7"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/0a7905ca-1e28-48c6-a26e-0d6f0222f6b7/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:32 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:32 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:32 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/e65ed32f-301e-4709-9d99-756f10405289/attribute/text {"name": "text", "id": "e65ed32f-301e-4709-9d99-756f10405289"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/e65ed32f-301e-4709-9d99-756f10405289/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:32 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:32 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:32 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/b79ce32c-0e57-4a10-ae28-c2723e5ea5b2/attribute/text {"name": "text", "id": "b79ce32c-0e57-4a10-ae28-c2723e5ea5b2"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/b79ce32c-0e57-4a10-ae28-c2723e5ea5b2/attribute/text HTTP/1.1" 200 54
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:32 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:32 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:32 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/1db4647c-10c3-4592-abce-ce39d4cbc022/attribute/text {"name": "text", "id": "1db4647c-10c3-4592-abce-ce39d4cbc022"}
+Thu,16 Dec 2021 14:02:32 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/1db4647c-10c3-4592-abce-ce39d4cbc022/attribute/text HTTP/1.1" 200 90
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:32 nineday_page.py[line:31]INFO,明天的日期： 12月17日
+Thu,16 Dec 2021 14:02:32 nineday_page.py[line:32]INFO,明天星期几： (五)
+Thu,16 Dec 2021 14:02:32 nineday_page.py[line:33]INFO,明天的温度： 17 - 23°C
+Thu,16 Dec 2021 14:02:32 nineday_page.py[line:34]INFO,明天的湿度： 55 - 85%
+Thu,16 Dec 2021 14:02:32 nineday_page.py[line:35]INFO,明天的降雨量： 55 - 85%
+Thu,16 Dec 2021 14:02:32 nineday_page.py[line:36]INFO,明天的风速： 北風4至5級，稍後離岸間中6級。
+Thu,16 Dec 2021 14:02:32 nineday_page.py[line:37]INFO,明天的描述： 初時有一兩陣微雨，稍後顯著轉涼。日間部分時間有陽光。
+Thu,16 Dec 2021 14:02:32 base_page.py[line:47]INFO,back
+Thu,16 Dec 2021 14:02:32 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:02:33 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:02:33 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:33 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:02:34 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:02:34 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:34 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:02:35 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:02:35 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:35 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch {}
+Thu,16 Dec 2021 14:02:36 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:36 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:36 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts {"implicit": 8000}
+Thu,16 Dec 2021 14:02:36 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:36 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:36 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:36 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:36 base_page.py[line:12]INFO,元素： com.lbe.security.miui:id/permission_keep_foreground_button
+Thu,16 Dec 2021 14:02:36 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "com.lbe.security.miui:id/permission_keep_foreground_button"}
+Thu,16 Dec 2021 14:02:37 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:37 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:37 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/0ddb7b66-9237-4f08-903d-76ccfde18d5b/click {"id": "0ddb7b66-9237-4f08-903d-76ccfde18d5b"}
+Thu,16 Dec 2021 14:02:37 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/0ddb7b66-9237-4f08-903d-76ccfde18d5b/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:37 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:37 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:37 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:37 base_page.py[line:12]INFO,元素： //android.widget.ImageButton[@content-desc="转到上一层级"]
+Thu,16 Dec 2021 14:02:37 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "xpath", "value": "//android.widget.ImageButton[@content-desc=\"\u8f6c\u5230\u4e0a\u4e00\u5c42\u7ea7\"]"}
+Thu,16 Dec 2021 14:02:39 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:39 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:39 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/fd4aedd8-f94b-4e16-a9c5-339af6b307b2/click {"id": "fd4aedd8-f94b-4e16-a9c5-339af6b307b2"}
+Thu,16 Dec 2021 14:02:40 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/fd4aedd8-f94b-4e16-a9c5-339af6b307b2/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:40 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:40 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "-android uiautomator", "value": "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"\u4e5d\u5929\u9810\u5831\").instance(0));"}
+Thu,16 Dec 2021 14:02:45 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:45 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:45 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/f3b90b7a-f052-49e8-87bb-0868ffaa65f3/click {"id": "f3b90b7a-f052-49e8-87bb-0868ffaa65f3"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/f3b90b7a-f052-49e8-87bb-0868ffaa65f3/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:46 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:46 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:46 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4a56884b-4b60-4d2c-94ab-8bd705b43b03/attribute/text {"name": "text", "id": "4a56884b-4b60-4d2c-94ab-8bd705b43b03"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4a56884b-4b60-4d2c-94ab-8bd705b43b03/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:46 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:46 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:46 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/3ebefb97-377a-4903-b508-ec82fc64bf75/attribute/text {"name": "text", "id": "3ebefb97-377a-4903-b508-ec82fc64bf75"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/3ebefb97-377a-4903-b508-ec82fc64bf75/attribute/text HTTP/1.1" 200 17
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:46 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:46 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:46 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bd5b6f25-a54d-410b-a917-019217fb65d8/attribute/text {"name": "text", "id": "bd5b6f25-a54d-410b-a917-019217fb65d8"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bd5b6f25-a54d-410b-a917-019217fb65d8/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:46 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:46 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:46 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/49b5a641-3462-4d06-9e6a-e47957251b43/attribute/text {"name": "text", "id": "49b5a641-3462-4d06-9e6a-e47957251b43"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/49b5a641-3462-4d06-9e6a-e47957251b43/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:46 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:46 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:46 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/496e03d3-b0ea-4d16-9d83-f02b8e9197c9/attribute/text {"name": "text", "id": "496e03d3-b0ea-4d16-9d83-f02b8e9197c9"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/496e03d3-b0ea-4d16-9d83-f02b8e9197c9/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:46 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:46 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:46 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:46 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/94877ee4-846d-4923-af12-68acf3362ee9/attribute/text {"name": "text", "id": "94877ee4-846d-4923-af12-68acf3362ee9"}
+Thu,16 Dec 2021 14:02:46 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/94877ee4-846d-4923-af12-68acf3362ee9/attribute/text HTTP/1.1" 200 54
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:47 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:47 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:47 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:47 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:47 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c26ae154-c18b-46ed-b627-e4d734805158/attribute/text {"name": "text", "id": "c26ae154-c18b-46ed-b627-e4d734805158"}
+Thu,16 Dec 2021 14:02:47 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c26ae154-c18b-46ed-b627-e4d734805158/attribute/text HTTP/1.1" 200 90
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:47 nineday_page.py[line:31]INFO,明天的日期： 12月17日
+Thu,16 Dec 2021 14:02:47 nineday_page.py[line:32]INFO,明天星期几： (五)
+Thu,16 Dec 2021 14:02:47 nineday_page.py[line:33]INFO,明天的温度： 17 - 23°C
+Thu,16 Dec 2021 14:02:47 nineday_page.py[line:34]INFO,明天的湿度： 55 - 85%
+Thu,16 Dec 2021 14:02:47 nineday_page.py[line:35]INFO,明天的降雨量： 55 - 85%
+Thu,16 Dec 2021 14:02:47 nineday_page.py[line:36]INFO,明天的风速： 北風4至5級，稍後離岸間中6級。
+Thu,16 Dec 2021 14:02:47 nineday_page.py[line:37]INFO,明天的描述： 初時有一兩陣微雨，稍後顯著轉涼。日間部分時間有陽光。
+Thu,16 Dec 2021 14:02:47 base_page.py[line:47]INFO,back
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:02:47 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:47 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:02:48 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:02:48 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:48 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:02:49 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:02:49 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:49 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch {}
+Thu,16 Dec 2021 14:02:50 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:50 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:50 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts {"implicit": 8000}
+Thu,16 Dec 2021 14:02:50 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:50 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:50 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:02:50 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:02:50 base_page.py[line:12]INFO,元素： //android.widget.ImageButton[@content-desc="转到上一层级"]
+Thu,16 Dec 2021 14:02:50 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "xpath", "value": "//android.widget.ImageButton[@content-desc=\"\u8f6c\u5230\u4e0a\u4e00\u5c42\u7ea7\"]"}
+Thu,16 Dec 2021 14:02:52 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:52 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:52 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/9c0d26ac-74bd-4f13-ad4a-2d2ad66c60c6/click {"id": "9c0d26ac-74bd-4f13-ad4a-2d2ad66c60c6"}
+Thu,16 Dec 2021 14:02:52 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/9c0d26ac-74bd-4f13-ad4a-2d2ad66c60c6/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:52 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:52 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "-android uiautomator", "value": "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"\u4e5d\u5929\u9810\u5831\").instance(0));"}
+Thu,16 Dec 2021 14:02:57 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:02:57 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:57 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4628ab5b-62bd-4cee-a6fe-ef43f3a1d8a4/click {"id": "4628ab5b-62bd-4cee-a6fe-ef43f3a1d8a4"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4628ab5b-62bd-4cee-a6fe-ef43f3a1d8a4/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:58 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:58 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:58 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/daf2c1b5-3a85-4124-ae04-e0e132962902/attribute/text {"name": "text", "id": "daf2c1b5-3a85-4124-ae04-e0e132962902"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/daf2c1b5-3a85-4124-ae04-e0e132962902/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:58 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:58 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:58 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/dcb9898f-bda1-4799-9dde-c189edc50ce1/attribute/text {"name": "text", "id": "dcb9898f-bda1-4799-9dde-c189edc50ce1"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/dcb9898f-bda1-4799-9dde-c189edc50ce1/attribute/text HTTP/1.1" 200 17
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:58 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:58 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:58 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/45853461-bb2a-46f3-bb6a-c6a1d8cd382a/attribute/text {"name": "text", "id": "45853461-bb2a-46f3-bb6a-c6a1d8cd382a"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/45853461-bb2a-46f3-bb6a-c6a1d8cd382a/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:58 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:58 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:58 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bd92f427-9cdc-40c9-bd45-65e899523726/attribute/text {"name": "text", "id": "bd92f427-9cdc-40c9-bd45-65e899523726"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bd92f427-9cdc-40c9-bd45-65e899523726/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:58 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:58 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:58 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/68d9767c-9f89-4698-bba0-65f57400b47d/attribute/text {"name": "text", "id": "68d9767c-9f89-4698-bba0-65f57400b47d"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/68d9767c-9f89-4698-bba0-65f57400b47d/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:58 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:58 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:58 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/d25d95fd-abfa-4152-90de-5e33cd6f5cd0/attribute/text {"name": "text", "id": "d25d95fd-abfa-4152-90de-5e33cd6f5cd0"}
+Thu,16 Dec 2021 14:02:58 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/d25d95fd-abfa-4152-90de-5e33cd6f5cd0/attribute/text HTTP/1.1" 200 54
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:58 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:02:58 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:02:58 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:02:58 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:02:58 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:02:59 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:02:59 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:59 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/a7b42491-e7db-4741-b9a5-caee29cd5082/attribute/text {"name": "text", "id": "a7b42491-e7db-4741-b9a5-caee29cd5082"}
+Thu,16 Dec 2021 14:02:59 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/a7b42491-e7db-4741-b9a5-caee29cd5082/attribute/text HTTP/1.1" 200 90
+Thu,16 Dec 2021 14:02:59 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:59 nineday_page.py[line:31]INFO,明天的日期： 12月17日
+Thu,16 Dec 2021 14:02:59 nineday_page.py[line:32]INFO,明天星期几： (五)
+Thu,16 Dec 2021 14:02:59 nineday_page.py[line:33]INFO,明天的温度： 17 - 23°C
+Thu,16 Dec 2021 14:02:59 nineday_page.py[line:34]INFO,明天的湿度： 55 - 85%
+Thu,16 Dec 2021 14:02:59 nineday_page.py[line:35]INFO,明天的降雨量： 55 - 85%
+Thu,16 Dec 2021 14:02:59 nineday_page.py[line:36]INFO,明天的风速： 北風4至5級，稍後離岸間中6級。
+Thu,16 Dec 2021 14:02:59 nineday_page.py[line:37]INFO,明天的描述： 初時有一兩陣微雨，稍後顯著轉涼。日間部分時間有陽光。
+Thu,16 Dec 2021 14:02:59 base_page.py[line:47]INFO,back
+Thu,16 Dec 2021 14:02:59 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:02:59 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:02:59 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:02:59 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:00 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:00 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:00 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:03 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:03 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:03 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch {}
+Thu,16 Dec 2021 14:03:04 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:04 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:04 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts {"implicit": 8000}
+Thu,16 Dec 2021 14:03:04 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:04 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:04 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:03:04 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:03:04 base_page.py[line:12]INFO,元素： //android.widget.ImageButton[@content-desc="转到上一层级"]
+Thu,16 Dec 2021 14:03:04 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "xpath", "value": "//android.widget.ImageButton[@content-desc=\"\u8f6c\u5230\u4e0a\u4e00\u5c42\u7ea7\"]"}
+Thu,16 Dec 2021 14:03:05 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:03:05 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:05 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/a30cdfe7-c796-414c-b7c1-8a92edb25242/click {"id": "a30cdfe7-c796-414c-b7c1-8a92edb25242"}
+Thu,16 Dec 2021 14:03:05 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/a30cdfe7-c796-414c-b7c1-8a92edb25242/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:05 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:05 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "-android uiautomator", "value": "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"\u4e5d\u5929\u9810\u5831\").instance(0));"}
+Thu,16 Dec 2021 14:03:12 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:03:12 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:12 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/46164e0f-c191-4980-a546-3f3de71d28e5/click {"id": "46164e0f-c191-4980-a546-3f3de71d28e5"}
+Thu,16 Dec 2021 14:03:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/46164e0f-c191-4980-a546-3f3de71d28e5/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "xpath", "value": "//*[@resource-id=\"hko.MyObservatory_v1_0:id/mainAppSevenDayView\"]/*[@class=\"android.widget.LinearLayout\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:03:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:03:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:13 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/5f9d2be5-9721-4336-be56-7edf1fe0766e/attribute/content-desc {"name": "content-desc", "id": "5f9d2be5-9721-4336-be56-7edf1fe0766e"}
+Thu,16 Dec 2021 14:03:13 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/5f9d2be5-9721-4336-be56-7edf1fe0766e/attribute/content-desc HTTP/1.1" 200 253
+Thu,16 Dec 2021 14:03:13 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:13 nineday_page.py[line:18]INFO,一次性获取到的明天的天气： 12月17日
+星期五
+
+氣溫介乎17至23攝氏度
+相對濕度介乎百分之55至85
+顯著降雨概率為低
+北風4至5級，稍後離岸間中6級。
+初時有一兩陣微雨，稍後顯著轉涼。日間部分時間有陽光。
+
+Thu,16 Dec 2021 14:03:13 base_page.py[line:47]INFO,back
+Thu,16 Dec 2021 14:03:13 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:14 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:14 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:14 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:14 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:14 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:14 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:16 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:16 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:16 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch {}
+Thu,16 Dec 2021 14:03:17 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:17 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:17 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts {"implicit": 8000}
+Thu,16 Dec 2021 14:03:17 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:17 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:17 base_page.py[line:18]INFO,定位方式:find_and_clik
+Thu,16 Dec 2021 14:03:17 base_page.py[line:11]INFO,定位方式：find
+Thu,16 Dec 2021 14:03:17 base_page.py[line:12]INFO,元素： //android.widget.ImageButton[@content-desc="转到上一层级"]
+Thu,16 Dec 2021 14:03:17 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "xpath", "value": "//android.widget.ImageButton[@content-desc=\"\u8f6c\u5230\u4e0a\u4e00\u5c42\u7ea7\"]"}
+Thu,16 Dec 2021 14:03:19 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:03:19 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:19 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/66af5997-3229-452d-85cc-e0ca5dcf3b90/click {"id": "66af5997-3229-452d-85cc-e0ca5dcf3b90"}
+Thu,16 Dec 2021 14:03:19 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/66af5997-3229-452d-85cc-e0ca5dcf3b90/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:19 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:19 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "-android uiautomator", "value": "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"\u4e5d\u5929\u9810\u5831\").instance(0));"}
+Thu,16 Dec 2021 14:03:26 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+Thu,16 Dec 2021 14:03:26 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:26 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/130598eb-c79b-4c2d-9153-f21398ca12d6/click {"id": "130598eb-c79b-4c2d-9153-f21398ca12d6"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/130598eb-c79b-4c2d-9153-f21398ca12d6/click HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:03:27 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:03:27 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:03:27 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c9cc0108-488d-42dd-b50e-b26af08e459b/attribute/text {"name": "text", "id": "c9cc0108-488d-42dd-b50e-b26af08e459b"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c9cc0108-488d-42dd-b50e-b26af08e459b/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:03:27 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:03:27 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:03:27 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bee5d4ce-e2d4-4320-86c9-74b2ba80ad19/attribute/text {"name": "text", "id": "bee5d4ce-e2d4-4320-86c9-74b2ba80ad19"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bee5d4ce-e2d4-4320-86c9-74b2ba80ad19/attribute/text HTTP/1.1" 200 17
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:03:27 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:03:27 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:03:27 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/8eb7fb2a-ab24-4cdd-8986-b3f9ebf6ecd4/attribute/text {"name": "text", "id": "8eb7fb2a-ab24-4cdd-8986-b3f9ebf6ecd4"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/8eb7fb2a-ab24-4cdd-8986-b3f9ebf6ecd4/attribute/text HTTP/1.1" 200 22
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:03:27 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:03:27 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:03:27 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/1edf2a69-8539-413b-bb53-972d6ab391af/attribute/text {"name": "text", "id": "1edf2a69-8539-413b-bb53-972d6ab391af"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/1edf2a69-8539-413b-bb53-972d6ab391af/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:03:27 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:03:27 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:03:27 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="1"]
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bb017fa2-8409-4555-97f8-4b7f2e636c9e/attribute/text {"name": "text", "id": "bb017fa2-8409-4555-97f8-4b7f2e636c9e"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bb017fa2-8409-4555-97f8-4b7f2e636c9e/attribute/text HTTP/1.1" 200 20
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:03:27 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:03:27 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:03:27 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/7a8a775e-c5ae-41da-9152-af75582c3827/attribute/text {"name": "text", "id": "7a8a775e-c5ae-41da-9152-af75582c3827"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/7a8a775e-c5ae-41da-9152-af75582c3827/attribute/text HTTP/1.1" 200 54
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 base_page.py[line:38]INFO,定位方式：finds_and_return
+Thu,16 Dec 2021 14:03:27 base_page.py[line:39]INFO,返回的数据: %s
+Thu,16 Dec 2021 14:03:27 base_page.py[line:31]INFO,定位方式：finds
+Thu,16 Dec 2021 14:03:27 base_page.py[line:32]INFO,元素： //*[@class="android.widget.TextView" and @index="0"]
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4134e278-27a6-4c29-8932-9924b484990c/attribute/text {"name": "text", "id": "4134e278-27a6-4c29-8932-9924b484990c"}
+Thu,16 Dec 2021 14:03:27 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4134e278-27a6-4c29-8932-9924b484990c/attribute/text HTTP/1.1" 200 90
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:27 nineday_page.py[line:31]INFO,明天的日期： 12月17日
+Thu,16 Dec 2021 14:03:27 nineday_page.py[line:32]INFO,明天星期几： (五)
+Thu,16 Dec 2021 14:03:27 nineday_page.py[line:33]INFO,明天的温度： 17 - 23°C
+Thu,16 Dec 2021 14:03:27 nineday_page.py[line:34]INFO,明天的湿度： 55 - 85%
+Thu,16 Dec 2021 14:03:27 nineday_page.py[line:35]INFO,明天的降雨量： 55 - 85%
+Thu,16 Dec 2021 14:03:27 nineday_page.py[line:36]INFO,明天的风速： 北風4至5級，稍後離岸間中6級。
+Thu,16 Dec 2021 14:03:27 nineday_page.py[line:37]INFO,明天的描述： 初時有一兩陣微雨，稍後顯著轉涼。日間部分時間有陽光。
+Thu,16 Dec 2021 14:03:27 base_page.py[line:47]INFO,back
+Thu,16 Dec 2021 14:03:27 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:28 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:28 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:28 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:28 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:28 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:28 remote_connection.py[line:435]DEBUG,POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+Thu,16 Dec 2021 14:03:30 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+Thu,16 Dec 2021 14:03:30 remote_connection.py[line:486]DEBUG,Finished Request
+Thu,16 Dec 2021 14:03:30 remote_connection.py[line:435]DEBUG,DELETE 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb {}
+Thu,16 Dec 2021 14:03:31 connectionpool.py[line:452]DEBUG,http://127.0.0.1:4723 "DELETE /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb HTTP/1.1" 200 14
+Thu,16 Dec 2021 14:03:31 remote_connection.py[line:486]DEBUG,Finished Request

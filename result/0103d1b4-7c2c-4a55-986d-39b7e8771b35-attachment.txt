@@ -1,0 +1,117 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/appium/app/launch HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts {"implicit": 8000}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/timeouts HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:18 定位方式:find_and_clik
+[32mINFO    [0m root:base_page.py:11 定位方式：find
+[32mINFO    [0m root:base_page.py:12 元素： com.lbe.security.miui:id/permission_keep_foreground_button
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "id", "value": "com.lbe.security.miui:id/permission_keep_foreground_button"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/0ddb7b66-9237-4f08-903d-76ccfde18d5b/click {"id": "0ddb7b66-9237-4f08-903d-76ccfde18d5b"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/0ddb7b66-9237-4f08-903d-76ccfde18d5b/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:18 定位方式:find_and_clik
+[32mINFO    [0m root:base_page.py:11 定位方式：find
+[32mINFO    [0m root:base_page.py:12 元素： //android.widget.ImageButton[@content-desc="转到上一层级"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "xpath", "value": "//android.widget.ImageButton[@content-desc=\"\u8f6c\u5230\u4e0a\u4e00\u5c42\u7ea7\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/fd4aedd8-f94b-4e16-a9c5-339af6b307b2/click {"id": "fd4aedd8-f94b-4e16-a9c5-339af6b307b2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/fd4aedd8-f94b-4e16-a9c5-339af6b307b2/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element {"using": "-android uiautomator", "value": "new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"\u4e5d\u5929\u9810\u5831\").instance(0));"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element HTTP/1.1" 200 137
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/f3b90b7a-f052-49e8-87bb-0868ffaa65f3/click {"id": "f3b90b7a-f052-49e8-87bb-0868ffaa65f3"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/f3b90b7a-f052-49e8-87bb-0868ffaa65f3/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:38 定位方式：finds_and_return
+[32mINFO    [0m root:base_page.py:39 返回的数据: %s
+[32mINFO    [0m root:base_page.py:31 定位方式：finds
+[32mINFO    [0m root:base_page.py:32 元素： //*[@class="android.widget.TextView" and @index="0"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4a56884b-4b60-4d2c-94ab-8bd705b43b03/attribute/text {"name": "text", "id": "4a56884b-4b60-4d2c-94ab-8bd705b43b03"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/4a56884b-4b60-4d2c-94ab-8bd705b43b03/attribute/text HTTP/1.1" 200 22
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:38 定位方式：finds_and_return
+[32mINFO    [0m root:base_page.py:39 返回的数据: %s
+[32mINFO    [0m root:base_page.py:31 定位方式：finds
+[32mINFO    [0m root:base_page.py:32 元素： //*[@class="android.widget.TextView" and @index="1"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/3ebefb97-377a-4903-b508-ec82fc64bf75/attribute/text {"name": "text", "id": "3ebefb97-377a-4903-b508-ec82fc64bf75"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/3ebefb97-377a-4903-b508-ec82fc64bf75/attribute/text HTTP/1.1" 200 17
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:38 定位方式：finds_and_return
+[32mINFO    [0m root:base_page.py:39 返回的数据: %s
+[32mINFO    [0m root:base_page.py:31 定位方式：finds
+[32mINFO    [0m root:base_page.py:32 元素： //*[@class="android.widget.TextView" and @index="0"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bd5b6f25-a54d-410b-a917-019217fb65d8/attribute/text {"name": "text", "id": "bd5b6f25-a54d-410b-a917-019217fb65d8"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/bd5b6f25-a54d-410b-a917-019217fb65d8/attribute/text HTTP/1.1" 200 22
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:38 定位方式：finds_and_return
+[32mINFO    [0m root:base_page.py:39 返回的数据: %s
+[32mINFO    [0m root:base_page.py:31 定位方式：finds
+[32mINFO    [0m root:base_page.py:32 元素： //*[@class="android.widget.TextView" and @index="1"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/49b5a641-3462-4d06-9e6a-e47957251b43/attribute/text {"name": "text", "id": "49b5a641-3462-4d06-9e6a-e47957251b43"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/49b5a641-3462-4d06-9e6a-e47957251b43/attribute/text HTTP/1.1" 200 20
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:38 定位方式：finds_and_return
+[32mINFO    [0m root:base_page.py:39 返回的数据: %s
+[32mINFO    [0m root:base_page.py:31 定位方式：finds
+[32mINFO    [0m root:base_page.py:32 元素： //*[@class="android.widget.TextView" and @index="1"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"1\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1291
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/496e03d3-b0ea-4d16-9d83-f02b8e9197c9/attribute/text {"name": "text", "id": "496e03d3-b0ea-4d16-9d83-f02b8e9197c9"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/496e03d3-b0ea-4d16-9d83-f02b8e9197c9/attribute/text HTTP/1.1" 200 20
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:38 定位方式：finds_and_return
+[32mINFO    [0m root:base_page.py:39 返回的数据: %s
+[32mINFO    [0m root:base_page.py:31 定位方式：finds
+[32mINFO    [0m root:base_page.py:32 元素： //*[@class="android.widget.TextView" and @index="0"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/94877ee4-846d-4923-af12-68acf3362ee9/attribute/text {"name": "text", "id": "94877ee4-846d-4923-af12-68acf3362ee9"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/94877ee4-846d-4923-af12-68acf3362ee9/attribute/text HTTP/1.1" 200 54
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:base_page.py:38 定位方式：finds_and_return
+[32mINFO    [0m root:base_page.py:39 返回的数据: %s
+[32mINFO    [0m root:base_page.py:31 定位方式：finds
+[32mINFO    [0m root:base_page.py:32 元素： //*[@class="android.widget.TextView" and @index="0"]
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements {"using": "xpath", "value": "//*[@class=\"android.widget.TextView\" and @index=\"0\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/elements HTTP/1.1" 200 1931
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 GET 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c26ae154-c18b-46ed-b627-e4d734805158/attribute/text {"name": "text", "id": "c26ae154-c18b-46ed-b627-e4d734805158"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "GET /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/element/c26ae154-c18b-46ed-b627-e4d734805158/attribute/text HTTP/1.1" 200 90
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[32mINFO    [0m root:nineday_page.py:31 明天的日期： 12月17日
+[32mINFO    [0m root:nineday_page.py:32 明天星期几： (五)
+[32mINFO    [0m root:nineday_page.py:33 明天的温度： 17 - 23°C
+[32mINFO    [0m root:nineday_page.py:34 明天的湿度： 55 - 85%
+[32mINFO    [0m root:nineday_page.py:35 明天的降雨量： 55 - 85%
+[32mINFO    [0m root:nineday_page.py:36 明天的风速： 北風4至5級，稍後離岸間中6級。
+[32mINFO    [0m root:nineday_page.py:37 明天的描述： 初時有一兩陣微雨，稍後顯著轉涼。日間部分時間有陽光。
+[32mINFO    [0m root:base_page.py:47 back
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:435 POST 127.0.0.1:4723/wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:4723 "POST /wd/hub/session/7c50ec7b-ce0f-48b1-9ffd-af5d42da55eb/back HTTP/1.1" 200 65
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:486 Finished Request

@@ -38,8 +38,6 @@ class BasePage:
         logger.info("定位方式：finds_and_return")
         logger.info(r"返回的数据: %s")
         elments=self.finds(by,value)
-        # for ele in range(len(elments)):
-        #     print(elments[ele].get_attribute('text'))
         return elments[location].get_attribute('text')
 
 

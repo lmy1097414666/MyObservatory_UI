@@ -25,7 +25,7 @@ class NineDayPage(BasePage):
         tomorrow_weekday = self.finds_and_return(*self.humidity_elements, 1)  # 获取明天周几
         tomorrow_temperature=self.finds_and_return(*self.temperature_elements,5)   #获取温度
         tomorrow_humidity=self.finds_and_return(*self.humidity_elements,2)    #获取湿度
-        tomorrow_rainfall=self.finds_and_return(*self.humidity_elements,2)    #获取降雨量
+        tomorrow_rainfall=self.finds_and_return(*self.humidity_elements,3)    #获取降雨量概率
         tomorrow_wind = self.finds_and_return(*self.temperature_elements, 6)  # 获取风速
         tomorrow_describe = self.finds_and_return(*self.temperature_elements, 7)  # 天气描述
         logger.info(r"明天的日期： %s",tomorrow_data)
